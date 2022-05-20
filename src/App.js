@@ -5,7 +5,7 @@ const GundamHeader = () => {
 };
 
 const GundamTitle = () => {
-  return <h2>건담</h2>;
+  return <h2>건담 DB</h2>;
 };
 
 export default function App() {
