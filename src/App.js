@@ -8,6 +8,7 @@ export default function App() {
   return (
     <div className="App">
       <GundamHeader />
+      <GundamHeader />
     </div>
   );
 }
