@@ -4,10 +4,14 @@ const GundamHeader = () => {
   return <h3>건담</h3>;
 };
 
+const GundamTitle = () => {
+  return <h2>건담</h2>;
+};
+
 export default function App() {
   return (
     <div className="App">
-      <GundamHeader />
+      <GundamTitle />
       <GundamHeader />
     </div>
   );
