@@ -17,7 +17,7 @@ import DeleteIcon from "@mui/icons-material/Delete";
 
 const SongList = () => {
    const [songName, setSongName] = useState("");
-   const [songs, setSongs] = useState(["씨발련"]);
+   const [songs, setSongs] = useState(["어디에도"]);
 
    const addSong = (e) => {
       e.preventDefault();
@@ -69,6 +69,7 @@ const SongList = () => {
          <Box component="form" sx={{ mt: 3 }} onSubmit={addSong}>
             <TextField
                required
+               //autofocus
                fullWidth
                label="노래 제목"
                name="SongInput"
